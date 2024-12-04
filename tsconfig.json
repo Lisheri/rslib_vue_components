@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "ES2021"],
+    "module": "ESNext",
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler",
+    "useDefineForClassFields": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "noImplicitAny": false,
+  },
+  "include": ["src"]
+}
