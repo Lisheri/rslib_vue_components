@@ -22,8 +22,9 @@
     "@rsbuild/plugin-vue": "^1.0.5",
     "@rsbuild/plugin-vue-jsx": "^1.0.1",
     "@rslib/core": "^0.1.2",
-    "vue": "^3.5.13",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "unplugin-vue-macros": "^2.13.4",
+    "vue": "^3.5.13"
   },
   "peerDependencies": {
     "vue": "^3.5.13"
