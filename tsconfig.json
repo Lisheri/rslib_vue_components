@@ -15,6 +15,11 @@
     "baseUrl": ".",
     "noImplicitAny": false,
     "types": ["unplugin-vue-macros/macros-global"],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
   },
   "vueCompilerOptions": {
     "plugins": ["unplugin-vue-macros/volar"],
