@@ -2,11 +2,12 @@ import { defineConfig } from '@rslib/core';
 import { pluginVue } from '@rsbuild/plugin-vue';
 import { pluginVueJsx } from '@rsbuild/plugin-vue-jsx';
 import { pluginBabel } from '@rsbuild/plugin-babel';
+import path from 'path';
 
 export default defineConfig({
   resolve: {
     alias: {
-      '@': './src'
+      '@': path.resolve(__dirname, './src')
     }
   },
   source: {
@@ -16,7 +17,7 @@ export default defineConfig({
   },
   lib: [
     {
-      bundle: false,
+      bundle: true,
       dts: true,
       format: 'esm'
     }
